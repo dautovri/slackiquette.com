@@ -2,7 +2,7 @@
 
 A friendly, no-nonsense guide to digital communication etiquette. This single-page site outlines the common pitfalls in modern digital workplaces to help everyone communicate more effectively.
 
-View the live guide at [slackiquette.com](https://dautov.github.io/slackiquette.com/).
+View the live guide at [slackiquette.com](https://slackiquette.com/slackiquette.com/).
 
 ## The Pitfalls Covered
 
