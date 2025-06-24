@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slack Etiquette</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-font: 'Lora', serif;
+      --secondary-font: 'Source Sans Pro', sans-serif;
+      --primary-color: #1D2C3C;
+      --secondary-color: #2C3E50;
+      --accent-color: #4A90E2;
+      --background-gradient: linear-gradient(to right top, #f4f7f9, #f6f8fa, #f8f9fb, #fafbfd, #fcfcfd, #fdfdfe, #fefefe, #ffffff);
+      --card-background: #ffffff;
+      --text-color: #333333;
+      --subtle-text-color: #6c757d;
+      --border-color: #e9eef2;
+      --error-color: #e74c3c;
+      --shadow-color: rgba(44, 62, 80, 0.1);
+    }
+
+    body {
+      font-family: var(--secondary-font);
+      margin: 0;
+      padding: 60px 20px;
+      background: var(--background-gradient);
+      color: var(--text-color);
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 80px;
+      position: relative;
+    }
+
+    .github-button-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    h1 {
+      font-family: var(--primary-font);
+      color: var(--primary-color);
+      font-size: 3.2em;
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      font-size: 1.2em;
+      color: var(--subtle-text-color);
+      max-width: 850px;
+      margin: 0 auto 80px;
+      line-height: 1.8;
+    }
+
+    .guidelines-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+      gap: 45px;
+      margin-bottom: 80px;
+    }
+
+    .guideline-card {
+      background: var(--card-background);
+      border-radius: 15px;
+      box-shadow: 0 8px 40px var(--shadow-color);
+      padding: 35px 40px;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--border-color);
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+
+    .guideline-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 50px var(--shadow-color);
+        border-color: var(--accent-color);
+    }
+
+    .card-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .card-icon {
+        font-size: 2.2em;
+        margin-right: 18px;
+        line-height: 1;
+    }
+
+    .card-title h2 {
+      font-family: var(--primary-font);
+      margin: 0;
+      font-size: 1.5em;
+      color: var(--secondary-color);
+    }
+
+    .guideline-card p {
+        margin-bottom: 20px;
+        color: #555;
+    }
+    
+    .guideline-card ul {
+        padding-left: 20px;
+        margin-top: -10px;
+    }
+
+    .example-bad {
+      background: #fff5f5;
+      padding: 12px 18px;
+      border-left: 4px solid var(--error-color);
+      margin-top: 10px;
+      font-size: 0.95em;
+      border-radius: 0 8px 8px 0;
+    }
+    
+    .example-bad:not(:last-child) {
+        margin-bottom: 12px;
+    }
+
+    .example-bad strong {
+        font-weight: 600;
+        color: var(--error-color);
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 90px;
+      padding-top: 40px;
+      border-top: 1px solid var(--border-color);
+      font-size: 1em;
+      color: var(--subtle-text-color);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <div class="github-button-container">
+            <a class="github-button" href="https://github.com/dautov/slackiquette.com" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star dautov/slackiquette.com on GitHub">Star</a>
+        </div>
+      <h1>Slack Etiquette</h1>
+      <p class="intro">A guide to navigating the modern digital workplace. Avoiding these common pitfalls will help you communicate with clarity, show respect for your colleagues' time, and foster productive collaboration.</p>
+    </div>
+
+    <div class="guidelines-grid">
+
+      <!-- Card: Notification Overload -->
+      <div class="guideline-card">
+        <div class="card-header">
+          <div class="card-icon">🔔</div>
+          <div class="card-title"><h2>Notification Overload & Tag Abuse</h2></div>
+        </div>
+        <p>Every ping is an interruption. Use notifications respectfully to avoid creating a culture of alert fatigue.</p>
+        <div class="example-bad">Overusing @channel or @here for non-urgent messages.</div>
+        <div class="example-bad">Tagging people outside working hours, especially across time zones.</div>
+        <div class="example-bad">Ping spamming — sending five short messages instead of one complete thought.</div>
+        <div class="example-bad">Ignoring a colleague's status or Do Not Disturb settings.</div>
+      </div>
+
+      <!-- Card: Poor Communication Habits -->
+      <div class="guideline-card">
+        <div class="card-header">
+          <div class="card-icon">💬</div>
+          <div class="card-title"><h2>Poor Communication Habits</h2></div>
+        </div>
+        <p>Clarity is kindness. Vague or incomplete messages create unnecessary work for others.</p>
+        <div class="example-bad">Just saying “hi” or “hey” with no context and waiting for a reply.</div>
+        <div class="example-bad">Writing giant, unformatted blocks of text that are difficult to read.</div>
+        <div class="example-bad">Dropping links with no explanation of what they are or what action is needed.</div>
+        <div class="example-bad">Hijacking threads for unrelated topics instead of starting a new conversation.</div>
+      </div>
+
+      <!-- Card: Channel Misuse -->
+      <div class="guideline-card">
+        <div class="card-header">
+          <div class="card-icon">📣</div>
+          <div class="card-title"><h2>Channel Misuse</h2></div>
+        </div>
+        <p>Channels are shared spaces. Keeping them organized and on-topic makes information accessible for everyone.</p>
+        <div class="example-bad">Posting off-topic content in focused work channels.</div>
+        <div class="example-bad">Failing to name channels clearly (e.g., #random123, #stuff).</div>
+        <div class="example-bad">Creating duplicate channels instead of searching for and reusing existing ones.</div>
+        <div class="example-bad">Not archiving inactive channels, leading to clutter and confusion.</div>
+      </div>
+
+      <!-- Card: Disrespecting Focus or Time -->
+      <div class="guideline-card">
+        <div class="card-header">
+          <div class="card-icon">🧠</div>
+          <div class="card-title"><h2>Disrespecting Focus & Time</h2></div>
+        </div>
+        <p>Respect your colleagues' need for deep work and work-life balance. Not every message requires an instant reply.</p>
+        <div class="example-bad">Interrupting deep work for non-urgent matters without checking availability.</div>
+        <div class="example-bad">Using Slack for complex topics that are better suited for a scheduled meeting.</div>
+        <div class="example-bad">Expecting others to scroll back hundreds of messages to catch up; provide a summary instead.</div>
+        <div class="example-bad">Sending messages during a colleague's PTO, vacation, or sick leave.</div>
+      </div>
+
+      <!-- Card: Team Dynamics and Cultural Friction -->
+      <div class="guideline-card">
+        <div class="card-header">
+          <div class="card-icon">🧑‍🤝‍🧑</div>
+          <div class="card-title"><h2>Team Dynamics & Cultural Friction</h2></div>
+        </div>
+        <p>Digital communication should build trust, not break it down. Be mindful of how your actions impact team morale.</p>
+        <div class="example-bad">Using public channels for criticism or feedback that should be private.</div>
+        <div class="example-bad">Making fun of coworkers or using passive-aggressive emoji in public threads.</div>
+        <div class="example-bad">Letting important questions from teammates go unanswered.</div>
+        <div class="example-bad">Treating Slack as a power game by ignoring messages on purpose.</div>
+      </div>
+
+      <!-- Card: Bad Bot & Automation Practices -->
+      <div class="guideline-card">
+        <div class="card-header">
+          <div class="card-icon">🤖</div>
+          <div class="card-title"><h2>Bad Bot & Automation Practices</h2></div>
+        </div>
+        <p>Automations should reduce noise, not create more of it. Configure bots to be helpful, not distracting.</p>
+        <div class="example-bad">Letting integrations flood channels with low-value or non-actionable updates.</div>
+        <div class="example-bad">Not configuring bots to post in the most appropriate, relevant channels.</div>
+        <div class="example-bad">Creating workflow announcements that sound robotic, cold, or lack context.</div>
+        <div class="example-bad">Ignoring bot etiquette, such as a GreetBot spamming welcome messages.</div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <p>A Guide to Professional Digital Workplace Communication</p>
+      <p>By Ruslan Dautov | June 2025</p>
+    </div>
+  </div>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+</html>
