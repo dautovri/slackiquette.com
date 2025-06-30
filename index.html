@@ -3,247 +3,448 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Slack Etiquette</title>
+  <title>Slack Etiquette Guide: Master Digital Workplace Communication | Slackiquette</title>
+  <meta name="description" content="Professional guide to Slack etiquette and digital workplace communication. Learn best practices, avoid common pitfalls, and improve team collaboration. Free resource for remote teams.">
+  <meta name="keywords" content="slack etiquette, digital communication, workplace communication, remote work, team collaboration, slack best practices, workplace culture, professional communication">
+  <meta name="author" content="Ruslan Dautov">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --primary-font: 'Lora', serif;
-      --secondary-font: 'Source Sans Pro', sans-serif;
-      --primary-color: #1D2C3C;
-      --secondary-color: #2C3E50;
-      --accent-color: #4A90E2;
-      --background-gradient: linear-gradient(to right top, #f4f7f9, #f6f8fa, #f8f9fb, #fafbfd, #fcfcfd, #fdfdfe, #fefefe, #ffffff);
-      --card-background: #ffffff;
-      --text-color: #333333;
-      --subtle-text-color: #6c757d;
-      --border-color: #e9eef2;
-      --error-color: #e74c3c;
-      --shadow-color: rgba(44, 62, 80, 0.1);
-    }
-
-    body {
-      font-family: var(--secondary-font);
-      margin: 0;
-      padding: 60px 20px;
-      background: var(--background-gradient);
-      color: var(--text-color);
-      line-height: 1.8;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-
-    .container {
-      max-width: 1400px;
-      margin: auto;
-    }
-
-    .header {
-      text-align: center;
-      margin-bottom: 80px;
-      position: relative;
-    }
-
-    .github-button-container {
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-
-    h1 {
-      font-family: var(--primary-font);
-      color: var(--primary-color);
-      font-size: 3.2em;
-      margin-bottom: 20px;
-    }
-
-    .intro {
-      font-size: 1.2em;
-      color: var(--subtle-text-color);
-      max-width: 850px;
-      margin: 0 auto 80px;
-      line-height: 1.8;
-    }
-
-    .guidelines-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-      gap: 45px;
-      margin-bottom: 80px;
-    }
-
-    .guideline-card {
-      background: var(--card-background);
-      border-radius: 15px;
-      box-shadow: 0 8px 40px var(--shadow-color);
-      padding: 35px 40px;
-      display: flex;
-      flex-direction: column;
-      border: 1px solid var(--border-color);
-      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-    }
-
-    .guideline-card:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 15px 50px var(--shadow-color);
-        border-color: var(--accent-color);
-    }
-
-    .card-header {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-    }
-
-    .card-icon {
-        font-size: 2.2em;
-        margin-right: 18px;
-        line-height: 1;
-    }
-
-    .card-title h2 {
-      font-family: var(--primary-font);
-      margin: 0;
-      font-size: 1.5em;
-      color: var(--secondary-color);
-    }
-
-    .guideline-card p {
-        margin-bottom: 20px;
-        color: #555;
-    }
-    
-    .guideline-card ul {
-        padding-left: 20px;
-        margin-top: -10px;
-    }
-
-    .example-bad {
-      background: #fff5f5;
-      padding: 12px 18px;
-      border-left: 4px solid var(--error-color);
-      margin-top: 10px;
-      font-size: 0.95em;
-      border-radius: 0 8px 8px 0;
-    }
-    
-    .example-bad:not(:last-child) {
-        margin-bottom: 12px;
-    }
-
-    .example-bad strong {
-        font-weight: 600;
-        color: var(--error-color);
-    }
-
-    .footer {
-      text-align: center;
-      margin-top: 90px;
-      padding-top: 40px;
-      border-top: 1px solid var(--border-color);
-      font-size: 1em;
-      color: var(--subtle-text-color);
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <div class="header">
+    <header class="header">
         <div class="github-button-container">
             <a class="github-button" href="https://github.com/dautovri/slackiquette.com" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star dautovri/slackiquette.com on GitHub">Star</a>
         </div>
       <h1>Slack Etiquette</h1>
       <p class="intro">A guide to navigating the modern digital workplace. Avoiding these common pitfalls will help you communicate with clarity, show respect for your colleagues' time, and foster productive collaboration.</p>
-    </div>
+      
+    </header>
 
-    <div class="guidelines-grid">
+    <main>
+      <section class="guidelines-grid">
 
-      <!-- Card: Notification Overload -->
-      <div class="guideline-card">
-        <div class="card-header">
-          <div class="card-icon">🔔</div>
-          <div class="card-title"><h2>Notification Overload & Tag Abuse</h2></div>
+        <!-- Card: Notification Overload -->
+        <div class="guideline-card">
+          <div class="card-header">
+            <div class="card-icon">🔔</div>
+            <div class="card-title"><h2>Notification Overload & Tag Abuse</h2></div>
+          </div>
+          <p>Every ping is an interruption. Use notifications respectfully to avoid creating a culture of alert fatigue.</p>
+          <div class="example-bad">Overusing @channel or @here for non-urgent messages.</div>
+          <div class="example-bad">Tagging people outside working hours, especially across time zones.</div>
+          <div class="example-bad">Ping spamming — sending five short messages instead of one complete thought.</div>
+          <div class="example-bad">Ignoring a colleague's status or Do Not Disturb settings.</div>
         </div>
-        <p>Every ping is an interruption. Use notifications respectfully to avoid creating a culture of alert fatigue.</p>
-        <div class="example-bad">Overusing @channel or @here for non-urgent messages.</div>
-        <div class="example-bad">Tagging people outside working hours, especially across time zones.</div>
-        <div class="example-bad">Ping spamming — sending five short messages instead of one complete thought.</div>
-        <div class="example-bad">Ignoring a colleague's status or Do Not Disturb settings.</div>
+
+        <!-- Card: Poor Communication Habits -->
+        <div class="guideline-card">
+          <div class="card-header">
+            <div class="card-icon">💬</div>
+            <div class="card-title"><h2>Poor Communication Habits</h2></div>
+          </div>
+          <p>Clarity is kindness. Vague or incomplete messages create unnecessary work for others.</p>
+          <div class="example-bad">Just saying “hi” or “hey” with no context and waiting for a reply.</div>
+          <div class="example-bad">Writing giant, unformatted blocks of text that are difficult to read.</div>
+          <div class="example-bad">Dropping links with no explanation of what they are or what action is needed.</div>
+          <div class="example-bad">Hijacking threads for unrelated topics instead of starting a new conversation.</div>
+        </div>
+
+        <!-- Card: Channel Misuse -->
+        <div class="guideline-card">
+          <div class="card-header">
+            <div class="card-icon">📣</div>
+            <div class="card-title"><h2>Channel Misuse</h2></div>
+          </div>
+          <p>Channels are shared spaces. Keeping them organized and on-topic makes information accessible for everyone.</p>
+          <div class="example-bad">Posting off-topic content in focused work channels.</div>
+          <div class="example-bad">Failing to name channels clearly (e.g., #random123, #stuff).</div>
+          <div class="example-bad">Creating duplicate channels instead of searching for and reusing existing ones.</div>
+          <div class="example-bad">Not archiving inactive channels, leading to clutter and confusion.</div>
+        </div>
+
+        <!-- Card: Disrespecting Focus or Time -->
+        <div class="guideline-card">
+          <div class="card-header">
+            <div class="card-icon">🧠</div>
+            <div class="card-title"><h2>Disrespecting Focus & Time</h2></div>
+          </div>
+          <p>Respect your colleagues' need for deep work and work-life balance. Not every message requires an instant reply.</p>
+          <div class="example-bad">Interrupting deep work for non-urgent matters without checking availability.</div>
+          <div class="example-bad">Using Slack for complex topics that are better suited for a scheduled meeting.</div>
+          <div class="example-bad">Expecting others to scroll back hundreds of messages to catch up; provide a summary instead.</div>
+          <div class="example-bad">Sending messages during a colleague's PTO, vacation, or sick leave.</div>
+        </div>
+
+        <!-- Card: Team Dynamics and Cultural Friction -->
+        <div class="guideline-card">
+          <div class="card-header">
+            <div class="card-icon">🧑‍🤝‍🧑</div>
+            <div class="card-title"><h2>Team Dynamics & Cultural Friction</h2></div>
+          </div>
+          <p>Digital communication should build trust, not break it down. Be mindful of how your actions impact team morale.</p>
+          <div class="example-bad">Using public channels for criticism or feedback that should be private.</div>
+          <div class="example-bad">Making fun of coworkers or using passive-aggressive emoji in public threads.</div>
+          <div class="example-bad">Letting important questions from teammates go unanswered.</div>
+          <div class="example-bad">Treating Slack as a power game by ignoring messages on purpose.</div>
+        </div>
+
+        <!-- Card: Bad Bot & Automation Practices -->
+        <div class="guideline-card">
+          <div class="card-header">
+            <div class="card-icon">🤖</div>
+            <div class="card-title"><h2>Bad Bot & Automation Practices</h2></div>
+          </div>
+          <p>Automations should reduce noise, not create more of it. Configure bots to be helpful, not distracting.</p>
+          <div class="example-bad">Letting integrations flood channels with low-value or non-actionable updates.</div>
+          <div class="example-bad">Not configuring bots to post in the most appropriate, relevant channels.</div>
+          <div class="example-bad">Creating workflow announcements that sound robotic, cold, or lack context.</div>
+          <div class="example-bad">Ignoring bot etiquette, such as a GreetBot spamming welcome messages.</div>
       </div>
 
-      <!-- Card: Poor Communication Habits -->
-      <div class="guideline-card">
-        <div class="card-header">
-          <div class="card-icon">💬</div>
-          <div class="card-title"><h2>Poor Communication Habits</h2></div>
+    </section>
+
+    <!-- Team Challenge Section -->
+    <section class="team-challenge-section">
+      <div class="challenge-container">
+        <h2>Team Challenge 🚀</h2>
+        <p class="challenge-intro">Want to improve your team's communication? Try implementing just <strong>one practice per week</strong>.</p>
+        
+        <div class="challenge-steps">
+          <div class="challenge-step">
+            <div class="step-number">1</div>
+            <p>Share this guide with your team</p>
+          </div>
+          <div class="challenge-step">
+            <div class="step-number">2</div>
+            <p>Choose one problem to tackle each week</p>
+          </div>
+          <div class="challenge-step">
+            <div class="step-number">3</div>
+            <p>Discuss progress in weekly meetings</p>
+          </div>
         </div>
-        <p>Clarity is kindness. Vague or incomplete messages create unnecessary work for others.</p>
-        <div class="example-bad">Just saying “hi” or “hey” with no context and waiting for a reply.</div>
-        <div class="example-bad">Writing giant, unformatted blocks of text that are difficult to read.</div>
-        <div class="example-bad">Dropping links with no explanation of what they are or what action is needed.</div>
-        <div class="example-bad">Hijacking threads for unrelated topics instead of starting a new conversation.</div>
-      </div>
-
-      <!-- Card: Channel Misuse -->
-      <div class="guideline-card">
-        <div class="card-header">
-          <div class="card-icon">📣</div>
-          <div class="card-title"><h2>Channel Misuse</h2></div>
+        
+        <div class="challenge-cta">
+          <a href="#" class="challenge-button" id="startChallengeBtn">Start 6-Week Challenge</a>
         </div>
-        <p>Channels are shared spaces. Keeping them organized and on-topic makes information accessible for everyone.</p>
-        <div class="example-bad">Posting off-topic content in focused work channels.</div>
-        <div class="example-bad">Failing to name channels clearly (e.g., #random123, #stuff).</div>
-        <div class="example-bad">Creating duplicate channels instead of searching for and reusing existing ones.</div>
-        <div class="example-bad">Not archiving inactive channels, leading to clutter and confusion.</div>
       </div>
+    </section>
 
-      <!-- Card: Disrespecting Focus or Time -->
-      <div class="guideline-card">
-        <div class="card-header">
-          <div class="card-icon">🧠</div>
-          <div class="card-title"><h2>Disrespecting Focus & Time</h2></div>
-        </div>
-        <p>Respect your colleagues' need for deep work and work-life balance. Not every message requires an instant reply.</p>
-        <div class="example-bad">Interrupting deep work for non-urgent matters without checking availability.</div>
-        <div class="example-bad">Using Slack for complex topics that are better suited for a scheduled meeting.</div>
-        <div class="example-bad">Expecting others to scroll back hundreds of messages to catch up; provide a summary instead.</div>
-        <div class="example-bad">Sending messages during a colleague's PTO, vacation, or sick leave.</div>
+    <!-- Share Section -->
+    <section class="share-section">
+      <h3>Found this helpful?</h3>
+      <p>Help your team communicate better by sharing this guide</p>
+      <div class="share-buttons">
+        <a href="https://x.com/intent/tweet?text=Great%20resource%20for%20better%20team%20communication%20%F0%9F%92%AC&url=https%3A//slackiquette.com" class="share-link x" target="_blank" rel="noopener">
+          X
+        </a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//slackiquette.com" class="share-link linkedin" target="_blank" rel="noopener">
+          💼 LinkedIn
+        </a>
+        <a href="mailto:?subject=Slack%20Etiquette%20Guide&body=I%20found%20this%20helpful%20guide%20for%20better%20team%20communication%3A%20https%3A//slackiquette.com" class="share-link email">
+          ✉️ Email
+        </a>
       </div>
+    </section>
+    </main>
 
-      <!-- Card: Team Dynamics and Cultural Friction -->
-      <div class="guideline-card">
-        <div class="card-header">
-          <div class="card-icon">🧑‍🤝‍🧑</div>
-          <div class="card-title"><h2>Team Dynamics & Cultural Friction</h2></div>
-        </div>
-        <p>Digital communication should build trust, not break it down. Be mindful of how your actions impact team morale.</p>
-        <div class="example-bad">Using public channels for criticism or feedback that should be private.</div>
-        <div class="example-bad">Making fun of coworkers or using passive-aggressive emoji in public threads.</div>
-        <div class="example-bad">Letting important questions from teammates go unanswered.</div>
-        <div class="example-bad">Treating Slack as a power game by ignoring messages on purpose.</div>
-      </div>
-
-      <!-- Card: Bad Bot & Automation Practices -->
-      <div class="guideline-card">
-        <div class="card-header">
-          <div class="card-icon">🤖</div>
-          <div class="card-title"><h2>Bad Bot & Automation Practices</h2></div>
-        </div>
-        <p>Automations should reduce noise, not create more of it. Configure bots to be helpful, not distracting.</p>
-        <div class="example-bad">Letting integrations flood channels with low-value or non-actionable updates.</div>
-        <div class="example-bad">Not configuring bots to post in the most appropriate, relevant channels.</div>
-        <div class="example-bad">Creating workflow announcements that sound robotic, cold, or lack context.</div>
-        <div class="example-bad">Ignoring bot etiquette, such as a GreetBot spamming welcome messages.</div>
-      </div>
-
-    </div>
-
-    <div class="footer">
-      <p>A Guide to Professional Digital Workplace Communication</p>
-      <p>By Ruslan Dautov | June 2025</p>
-    </div>
+    <footer class="footer">
+      <p>Made with ❤️ by Ruslan Dautov. <a href="https://github.com/dautovri/slackiquette.com" target="_blank" rel="noopener noreferrer">Contribute on GitHub</a></p>
+    </footer>
   </div>
+
   <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // GitHub button tracking
+      const githubButton = document.querySelector('.github-button');
+      if (githubButton && typeof gtag !== 'undefined') {
+        githubButton.addEventListener('click', function() {
+          gtag('event', 'click', {
+            'event_category': 'engagement',
+            'event_label': 'GitHub Star',
+            'transport_type': 'beacon'
+          });
+        });
+      }
+      
+      // Add animation classes on page load
+      document.querySelectorAll('.guideline-card, .challenge-step').forEach((el, index) => {
+        setTimeout(() => {
+          el.classList.add('animated');
+        }, 100 * index);
+      });
+      
+      // Handle team challenge button click
+      const challengeBtn = document.getElementById('startChallengeBtn');
+      if (challengeBtn) {
+        challengeBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          
+          // Create modal overlay
+          const modal = document.createElement('div');
+          modal.className = 'challenge-modal-overlay';
+          
+          // Create modal content
+          const modalContent = document.createElement('div');
+          modalContent.className = 'challenge-modal-content';
+          modalContent.innerHTML = `
+            <button class="close-modal">&times;</button>
+            <h3>Your 6-Week Slack Challenge</h3>
+            <p>Follow this weekly plan to transform your team's communication:</p>
+            
+            <div class="challenge-weeks">
+              <div class="challenge-week">
+                <div class="week-number">Week 1</div>
+                <div class="week-content">
+                  <h4>Notification Discipline</h4>
+                  <p>Agree on when to use @channel vs. @here and establish quiet hours.</p>
+                </div>
+              </div>
+              
+              <div class="challenge-week">
+                <div class="week-number">Week 2</div>
+                <div class="week-content">
+                  <h4>Communication Clarity</h4>
+                  <p>Practice sending complete thoughts with context in a single message.</p>
+                </div>
+              </div>
+              
+              <div class="challenge-week">
+                <div class="week-number">Week 3</div>
+                <div class="week-content">
+                  <h4>Channel Organization</h4>
+                  <p>Audit and reorganize channels, archive unused ones.</p>
+                </div>
+              </div>
+              
+              <div class="challenge-week">
+                <div class="week-number">Week 4</div>
+                <div class="week-content">
+                  <h4>Focus Protection</h4>
+                  <p>Implement "focus time" blocks where team members can work uninterrupted.</p>
+                </div>
+              </div>
+              
+              <div class="challenge-week">
+                <div class="week-number">Week 5</div>
+                <div class="week-content">
+                  <h4>Team Dynamics</h4>
+                  <p>Move sensitive feedback to private channels or direct messages.</p>
+                </div>
+              </div>
+              
+              <div class="challenge-week">
+                <div class="week-number">Week 6</div>
+                <div class="week-content">
+                  <h4>Bot Management</h4>
+                  <p>Review and optimize all automations and integrations.</p>
+                </div>
+              </div>
+            </div>
+          `;
+          
+          modal.appendChild(modalContent);
+          document.body.appendChild(modal);
+          
+          // Handle closing modal
+          const closeModal = () => {
+            modal.classList.add('closing');
+            setTimeout(() => {
+              document.body.removeChild(modal);
+            }, 300);
+          };
+          
+          modal.querySelector('.close-modal').addEventListener('click', closeModal);
+          
+          // Close when clicking outside modal
+          modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeModal();
+          });
+          
+          // Prevent closing when clicking inside modal
+          modalContent.addEventListener('click', (e) => {
+            e.stopPropagation();
+          });
+          
+          // Animation to show modal
+          setTimeout(() => {
+            modal.classList.add('visible');
+          }, 10);
+          
+          // Track engagement
+          if (typeof gtag !== 'undefined') {
+            gtag('event', 'start_challenge', {
+              'event_category': 'engagement',
+              'event_label': 'Team Challenge'
+            });
+          }
+          
+          // Handle download button (placeholder)
+          const downloadBtn = document.getElementById('downloadChallengeBtn');
+          if (downloadBtn) {
+            downloadBtn.addEventListener('click', function() {
+              alert('This would download a PDF with the 6-week plan in a real implementation.');
+              
+              if (typeof gtag !== 'undefined') {
+                gtag('event', 'download_challenge', {
+                  'event_category': 'engagement',
+                  'event_label': 'Challenge PDF'
+                });
+              }
+            });
+          }
+        });
+      }
+    });
+  </script>
+  
+  <style>
+    /* Modal styles */
+    .challenge-modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.75);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+    
+    .challenge-modal-overlay.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    .challenge-modal-overlay.closing {
+      opacity: 0;
+      visibility: hidden;
+    }
+    
+    .challenge-modal-content {
+      background-color: white;
+      width: 90%;
+      max-width: 600px;
+      border-radius: 15px;
+      padding: 30px;
+      position: relative;
+      max-height: 85vh;
+      overflow-y: auto;
+      transform: translateY(20px);
+      opacity: 0;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    
+    .challenge-modal-overlay.visible .challenge-modal-content {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    
+    .close-modal {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      color: #6c757d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      transition: background-color 0.2s ease;
+    }
+    
+    .close-modal:hover {
+      background-color: rgba(108, 117, 125, 0.1);
+    }
+    
+    .challenge-modal-content h3 {
+      font-family: var(--primary-font);
+      color: var(--secondary-color);
+      margin-bottom: 10px;
+      font-size: 1.8em;
+      text-align: center;
+    }
+    
+    .challenge-modal-content p {
+      text-align: center;
+      color: var(--subtle-text-color);
+      margin-bottom: 25px;
+    }
+    
+    .challenge-weeks {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 25px;
+    }
+    
+    .challenge-week {
+      display: flex;
+      gap: 15px;
+      padding: 15px;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      background-color: #f8f9fa;
+      animation: fadeIn 0.5s ease-out forwards;
+      animation-delay: calc(var(--animation-duration) * var(--i, 0));
+      opacity: 0;
+    }
+    
+    .challenge-week:nth-child(1) { --i: 1; }
+    .challenge-week:nth-child(2) { --i: 2; }
+    .challenge-week:nth-child(3) { --i: 3; }
+    .challenge-week:nth-child(4) { --i: 4; }
+    .challenge-week:nth-child(5) { --i: 5; }
+    .challenge-week:nth-child(6) { --i: 6; }
+    
+    .week-number {
+      background-color: var(--accent-color);
+      color: white;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 80px;
+    }
+    
+    .week-content h4 {
+      margin: 0 0 5px 0;
+      color: var(--secondary-color);
+    }
+    
+    .week-content p {
+      margin: 0;
+      font-size: 0.95em;
+      text-align: left;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      .challenge-week {
+        flex-direction: column;
+      }
+      
+      .week-number {
+        width: fit-content;
+      }
+    }
+  </style>
 </body>
 </html>
