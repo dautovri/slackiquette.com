@@ -16,11 +16,15 @@
 <body>
   <div class="container">
     <header class="header">
+        <div class="language-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="fr">FR</button>
+        </div>
         <div class="github-button-container">
             <a class="github-button" href="https://github.com/dautovri/slackiquette.com" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star dautovri/slackiquette.com on GitHub">Star</a>
         </div>
-      <h1>Slack Etiquette</h1>
-      <p class="intro">A guide to navigating the modern digital workplace. Avoiding these common pitfalls will help you communicate with clarity, show respect for your colleagues' time, and foster productive collaboration.</p>
+      <h1 data-en="Slack Etiquette" data-fr="Étiquette Slack">Slack Etiquette</h1>
+      <p class="intro" data-en="A guide to navigating the modern digital workplace. Avoiding these common pitfalls will help you communicate with clarity, show respect for your colleagues' time, and foster productive collaboration." data-fr="Un guide pour naviguer dans l'espace de travail numérique moderne. Éviter ces écueils courants vous aidera à communiquer avec clarté, à respecter le temps de vos collègues et à favoriser une collaboration productive.">A guide to navigating the modern digital workplace. Avoiding these common pitfalls will help you communicate with clarity, show respect for your colleagues' time, and foster productive collaboration.</p>
       
     </header>
 
@@ -31,78 +35,78 @@
         <div class="guideline-card">
           <div class="card-header">
             <div class="card-icon">🔔</div>
-            <div class="card-title"><h2>Notification Overload & Tag Abuse</h2></div>
+            <div class="card-title"><h2 data-en="Notification Overload & Tag Abuse" data-fr="Surcharge de Notifications & Abus de Tags">Notification Overload & Tag Abuse</h2></div>
           </div>
-          <p>Every ping is an interruption. Use notifications respectfully to avoid creating a culture of alert fatigue.</p>
-          <div class="example-bad">Overusing @channel or @here for non-urgent messages.</div>
-          <div class="example-bad">Tagging people outside working hours, especially across time zones.</div>
-          <div class="example-bad">Ping spamming — sending five short messages instead of one complete thought.</div>
-          <div class="example-bad">Ignoring a colleague's status or Do Not Disturb settings.</div>
+          <p data-en="Every ping is an interruption. Use notifications respectfully to avoid creating a culture of alert fatigue." data-fr="Chaque notification est une interruption. Utilisez les notifications avec respect pour éviter de créer une culture de fatigue d'alertes.">Every ping is an interruption. Use notifications respectfully to avoid creating a culture of alert fatigue.</p>
+          <div class="example-bad" data-en="Overusing @channel or @here for non-urgent messages." data-fr="Surutiliser @channel ou @here pour des messages non urgents.">Overusing @channel or @here for non-urgent messages.</div>
+          <div class="example-bad" data-en="Tagging people outside working hours, especially across time zones." data-fr="Taguer des personnes en dehors des heures de travail, surtout à travers les fuseaux horaires.">Tagging people outside working hours, especially across time zones.</div>
+          <div class="example-bad" data-en="Ping spamming — sending five short messages instead of one complete thought." data-fr="Spam de notifications — envoyer cinq messages courts au lieu d'une pensée complète.">Ping spamming — sending five short messages instead of one complete thought.</div>
+          <div class="example-bad" data-en="Ignoring a colleague's status or Do Not Disturb settings." data-fr="Ignorer le statut d'un collègue ou les paramètres Ne Pas Déranger.">Ignoring a colleague's status or Do Not Disturb settings.</div>
         </div>
 
         <!-- Card: Poor Communication Habits -->
         <div class="guideline-card">
           <div class="card-header">
             <div class="card-icon">💬</div>
-            <div class="card-title"><h2>Poor Communication Habits</h2></div>
+            <div class="card-title"><h2 data-en="Poor Communication Habits" data-fr="Mauvaises Habitudes de Communication">Poor Communication Habits</h2></div>
           </div>
-          <p>Clarity is kindness. Vague or incomplete messages create unnecessary work for others.</p>
-          <div class="example-bad">Just saying “hi” or “hey” with no context and waiting for a reply.</div>
-          <div class="example-bad">Writing giant, unformatted blocks of text that are difficult to read.</div>
-          <div class="example-bad">Dropping links with no explanation of what they are or what action is needed.</div>
-          <div class="example-bad">Hijacking threads for unrelated topics instead of starting a new conversation.</div>
+          <p data-en="Clarity is kindness. Vague or incomplete messages create unnecessary work for others." data-fr="La clarté est une gentillesse. Les messages vagues ou incomplets créent un travail inutile pour les autres.">Clarity is kindness. Vague or incomplete messages create unnecessary work for others.</p>
+          <div class="example-bad" data-en="Just saying &quot;hi&quot; or &quot;hey&quot; with no context and waiting for a reply." data-fr="Dire simplement &quot;salut&quot; ou &quot;bonjour&quot; sans contexte et attendre une réponse.">Just saying "hi" or "hey" with no context and waiting for a reply.</div>
+          <div class="example-bad" data-en="Writing giant, unformatted blocks of text that are difficult to read." data-fr="Écrire d'énormes blocs de texte non formatés difficiles à lire.">Writing giant, unformatted blocks of text that are difficult to read.</div>
+          <div class="example-bad" data-en="Dropping links with no explanation of what they are or what action is needed." data-fr="Déposer des liens sans explication de ce qu'ils sont ou quelle action est nécessaire.">Dropping links with no explanation of what they are or what action is needed.</div>
+          <div class="example-bad" data-en="Hijacking threads for unrelated topics instead of starting a new conversation." data-fr="Détourner les fils de discussion pour des sujets non liés au lieu de commencer une nouvelle conversation.">Hijacking threads for unrelated topics instead of starting a new conversation.</div>
         </div>
 
         <!-- Card: Channel Misuse -->
         <div class="guideline-card">
           <div class="card-header">
             <div class="card-icon">📣</div>
-            <div class="card-title"><h2>Channel Misuse</h2></div>
+            <div class="card-title"><h2 data-en="Channel Misuse" data-fr="Mauvaise Utilisation des Canaux">Channel Misuse</h2></div>
           </div>
-          <p>Channels are shared spaces. Keeping them organized and on-topic makes information accessible for everyone.</p>
-          <div class="example-bad">Posting off-topic content in focused work channels.</div>
-          <div class="example-bad">Failing to name channels clearly (e.g., #random123, #stuff).</div>
-          <div class="example-bad">Creating duplicate channels instead of searching for and reusing existing ones.</div>
-          <div class="example-bad">Not archiving inactive channels, leading to clutter and confusion.</div>
+          <p data-en="Channels are shared spaces. Keeping them organized and on-topic makes information accessible for everyone." data-fr="Les canaux sont des espaces partagés. Les garder organisés et sur le sujet rend l'information accessible à tous.">Channels are shared spaces. Keeping them organized and on-topic makes information accessible for everyone.</p>
+          <div class="example-bad" data-en="Posting off-topic content in focused work channels." data-fr="Publier du contenu hors sujet dans des canaux de travail ciblés.">Posting off-topic content in focused work channels.</div>
+          <div class="example-bad" data-en="Failing to name channels clearly (e.g., #random123, #stuff)." data-fr="Échouer à nommer clairement les canaux (ex: #random123, #trucs).">Failing to name channels clearly (e.g., #random123, #stuff).</div>
+          <div class="example-bad" data-en="Creating duplicate channels instead of searching for and reusing existing ones." data-fr="Créer des canaux en double au lieu de chercher et réutiliser ceux existants.">Creating duplicate channels instead of searching for and reusing existing ones.</div>
+          <div class="example-bad" data-en="Not archiving inactive channels, leading to clutter and confusion." data-fr="Ne pas archiver les canaux inactifs, menant au désordre et à la confusion.">Not archiving inactive channels, leading to clutter and confusion.</div>
         </div>
 
         <!-- Card: Disrespecting Focus or Time -->
         <div class="guideline-card">
           <div class="card-header">
             <div class="card-icon">🧠</div>
-            <div class="card-title"><h2>Disrespecting Focus & Time</h2></div>
+            <div class="card-title"><h2 data-en="Disrespecting Focus & Time" data-fr="Manquer de Respect pour la Concentration et le Temps">Disrespecting Focus & Time</h2></div>
           </div>
-          <p>Respect your colleagues' need for deep work and work-life balance. Not every message requires an instant reply.</p>
-          <div class="example-bad">Interrupting deep work for non-urgent matters without checking availability.</div>
-          <div class="example-bad">Using Slack for complex topics that are better suited for a scheduled meeting.</div>
-          <div class="example-bad">Expecting others to scroll back hundreds of messages to catch up; provide a summary instead.</div>
-          <div class="example-bad">Sending messages during a colleague's PTO, vacation, or sick leave.</div>
+          <p data-en="Respect your colleagues' need for deep work and work-life balance. Not every message requires an instant reply." data-fr="Respectez le besoin de vos collègues pour un travail en profondeur et l'équilibre travail-vie. Tous les messages ne nécessitent pas une réponse instantanée.">Respect your colleagues' need for deep work and work-life balance. Not every message requires an instant reply.</p>
+          <div class="example-bad" data-en="Interrupting deep work for non-urgent matters without checking availability." data-fr="Interrompre le travail en profondeur pour des sujets non urgents sans vérifier la disponibilité.">Interrupting deep work for non-urgent matters without checking availability.</div>
+          <div class="example-bad" data-en="Using Slack for complex topics that are better suited for a scheduled meeting." data-fr="Utiliser Slack pour des sujets complexes qui conviennent mieux à une réunion programmée.">Using Slack for complex topics that are better suited for a scheduled meeting.</div>
+          <div class="example-bad" data-en="Expecting others to scroll back hundreds of messages to catch up; provide a summary instead." data-fr="S'attendre à ce que les autres fassent défiler des centaines de messages pour se rattraper ; fournir un résumé à la place.">Expecting others to scroll back hundreds of messages to catch up; provide a summary instead.</div>
+          <div class="example-bad" data-en="Sending messages during a colleague's PTO, vacation, or sick leave." data-fr="Envoyer des messages pendant les congés, vacances ou arrêt maladie d'un collègue.">Sending messages during a colleague's PTO, vacation, or sick leave.</div>
         </div>
 
         <!-- Card: Team Dynamics and Cultural Friction -->
         <div class="guideline-card">
           <div class="card-header">
             <div class="card-icon">🧑‍🤝‍🧑</div>
-            <div class="card-title"><h2>Team Dynamics & Cultural Friction</h2></div>
+            <div class="card-title"><h2 data-en="Team Dynamics & Cultural Friction" data-fr="Dynamiques d'Équipe & Frictions Culturelles">Team Dynamics & Cultural Friction</h2></div>
           </div>
-          <p>Digital communication should build trust, not break it down. Be mindful of how your actions impact team morale.</p>
-          <div class="example-bad">Using public channels for criticism or feedback that should be private.</div>
-          <div class="example-bad">Making fun of coworkers or using passive-aggressive emoji in public threads.</div>
-          <div class="example-bad">Letting important questions from teammates go unanswered.</div>
-          <div class="example-bad">Treating Slack as a power game by ignoring messages on purpose.</div>
+          <p data-en="Digital communication should build trust, not break it down. Be mindful of how your actions impact team morale." data-fr="La communication numérique devrait construire la confiance, pas la détruire. Soyez conscient de l'impact de vos actions sur le moral de l'équipe.">Digital communication should build trust, not break it down. Be mindful of how your actions impact team morale.</p>
+          <div class="example-bad" data-en="Using public channels for criticism or feedback that should be private." data-fr="Utiliser des canaux publics pour des critiques ou commentaires qui devraient être privés.">Using public channels for criticism or feedback that should be private.</div>
+          <div class="example-bad" data-en="Making fun of coworkers or using passive-aggressive emoji in public threads." data-fr="Se moquer des collègues ou utiliser des emoji passif-agressifs dans les fils publics.">Making fun of coworkers or using passive-aggressive emoji in public threads.</div>
+          <div class="example-bad" data-en="Letting important questions from teammates go unanswered." data-fr="Laisser des questions importantes des coéquipiers sans réponse.">Letting important questions from teammates go unanswered.</div>
+          <div class="example-bad" data-en="Treating Slack as a power game by ignoring messages on purpose." data-fr="Traiter Slack comme un jeu de pouvoir en ignorant délibérément les messages.">Treating Slack as a power game by ignoring messages on purpose.</div>
         </div>
 
         <!-- Card: Bad Bot & Automation Practices -->
         <div class="guideline-card">
           <div class="card-header">
             <div class="card-icon">🤖</div>
-            <div class="card-title"><h2>Bad Bot & Automation Practices</h2></div>
+            <div class="card-title"><h2 data-en="Bad Bot & Automation Practices" data-fr="Mauvaises Pratiques de Bots & Automatisation">Bad Bot & Automation Practices</h2></div>
           </div>
-          <p>Automations should reduce noise, not create more of it. Configure bots to be helpful, not distracting.</p>
-          <div class="example-bad">Letting integrations flood channels with low-value or non-actionable updates.</div>
-          <div class="example-bad">Not configuring bots to post in the most appropriate, relevant channels.</div>
-          <div class="example-bad">Creating workflow announcements that sound robotic, cold, or lack context.</div>
-          <div class="example-bad">Ignoring bot etiquette, such as a GreetBot spamming welcome messages.</div>
+          <p data-en="Automations should reduce noise, not create more of it. Configure bots to be helpful, not distracting." data-fr="Les automatisations devraient réduire le bruit, pas en créer davantage. Configurez les bots pour qu'ils soient utiles, pas distrayants.">Automations should reduce noise, not create more of it. Configure bots to be helpful, not distracting.</p>
+          <div class="example-bad" data-en="Letting integrations flood channels with low-value or non-actionable updates." data-fr="Laisser les intégrations inonder les canaux avec des mises à jour de faible valeur ou non exploitables.">Letting integrations flood channels with low-value or non-actionable updates.</div>
+          <div class="example-bad" data-en="Not configuring bots to post in the most appropriate, relevant channels." data-fr="Ne pas configurer les bots pour publier dans les canaux les plus appropriés et pertinents.">Not configuring bots to post in the most appropriate, relevant channels.</div>
+          <div class="example-bad" data-en="Creating workflow announcements that sound robotic, cold, or lack context." data-fr="Créer des annonces de workflow qui sonnent robotiques, froides ou manquent de contexte.">Creating workflow announcements that sound robotic, cold, or lack context.</div>
+          <div class="example-bad" data-en="Ignoring bot etiquette, such as a GreetBot spamming welcome messages." data-fr="Ignorer l'étiquette des bots, comme un GreetBot qui spamme des messages de bienvenue.">Ignoring bot etiquette, such as a GreetBot spamming welcome messages.</div>
       </div>
 
     </section>
@@ -110,34 +114,34 @@
     <!-- Team Challenge Section -->
     <section class="team-challenge-section">
       <div class="challenge-container">
-        <h2>Team Challenge 🚀</h2>
-        <p class="challenge-intro">Want to improve your team's communication? Try implementing just <strong>one practice per week</strong>.</p>
+        <h2 data-en="Team Challenge 🚀" data-fr="Défi d'Équipe 🚀">Team Challenge 🚀</h2>
+        <p class="challenge-intro" data-en="Want to improve your team's communication? Try implementing just <strong>one practice per week</strong>." data-fr="Vous voulez améliorer la communication de votre équipe ? Essayez d'implémenter juste <strong>une pratique par semaine</strong>.">Want to improve your team's communication? Try implementing just <strong>one practice per week</strong>.</p>
         
         <div class="challenge-steps">
           <div class="challenge-step">
             <div class="step-number">1</div>
-            <p>Share this guide with your team</p>
+            <p data-en="Share this guide with your team" data-fr="Partagez ce guide avec votre équipe">Share this guide with your team</p>
           </div>
           <div class="challenge-step">
             <div class="step-number">2</div>
-            <p>Choose one problem to tackle each week</p>
+            <p data-en="Choose one problem to tackle each week" data-fr="Choisissez un problème à résoudre chaque semaine">Choose one problem to tackle each week</p>
           </div>
           <div class="challenge-step">
             <div class="step-number">3</div>
-            <p>Discuss progress in weekly meetings</p>
+            <p data-en="Discuss progress in weekly meetings" data-fr="Discutez des progrès lors des réunions hebdomadaires">Discuss progress in weekly meetings</p>
           </div>
         </div>
         
         <div class="challenge-cta">
-          <a href="#" class="challenge-button" id="startChallengeBtn">Start 6-Week Challenge</a>
+          <a href="#" class="challenge-button" id="startChallengeBtn" data-en="Start 6-Week Challenge" data-fr="Commencer le Défi de 6 Semaines">Start 6-Week Challenge</a>
         </div>
       </div>
     </section>
 
     <!-- Share Section -->
     <section class="share-section">
-      <h3>Found this helpful?</h3>
-      <p>Help your team communicate better by sharing this guide</p>
+      <h3 data-en="Found this helpful?" data-fr="Vous trouvez cela utile ?">Found this helpful?</h3>
+      <p data-en="Help your team communicate better by sharing this guide" data-fr="Aidez votre équipe à mieux communiquer en partageant ce guide">Help your team communicate better by sharing this guide</p>
       <div class="share-buttons">
         <a href="https://x.com/intent/tweet?text=Great%20resource%20for%20better%20team%20communication%20%F0%9F%92%AC&url=https%3A//slackiquette.com" class="share-link x" target="_blank" rel="noopener">
           X
@@ -153,25 +157,69 @@
     </main>
 
     <footer class="footer">
-      <div class="footer-content">
-        <p class="footer-main">Made with ❤️ by <a href="https://dautovri.com" target="_blank" rel="noopener noreferrer" class="author-link">Ruslan Dautov</a></p>
-        <div class="footer-links">
-          <a href="https://github.com/dautovri/slackiquette.com" target="_blank" rel="noopener noreferrer" class="footer-link github-link">
-            <span class="link-icon">⭐</span>
-            Contribute on GitHub
-          </a>
-          <a href="https://dautovri.com" target="_blank" rel="noopener noreferrer" class="footer-link website-link">
-            <span class="link-icon">🌐</span>
-            Visit My Website
-          </a>
-        </div>
-      </div>
+      <p>Made with love by <a href="https://dautovri.com" target="_blank" rel="noopener">Ruslan Dautov</a></p>
     </footer>
   </div>
 
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <script>
+    // Language switching functionality
+    let currentLang = 'en';
+    
+    function detectUserLanguage() {
+      // Use browser language detection only (no consent needed - browser API)
+      const userLang = navigator.language || navigator.userLanguage;
+      return userLang.toLowerCase().startsWith('fr') ? 'fr' : 'en';
+    }
+    
+    function switchLanguage(lang) {
+      currentLang = lang;
+      localStorage.setItem('preferred-language', lang);
+      
+      // Update all elements with data-en and data-fr attributes
+      document.querySelectorAll('[data-en][data-fr]').forEach(element => {
+        const text = element.getAttribute(`data-${lang}`);
+        if (text) {
+          element.innerHTML = text;
+        }
+      });
+      
+      // Update language buttons
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+      
+      // Update page title and meta description
+      if (lang === 'fr') {
+        document.title = 'Guide d\'Étiquette Slack: Maîtriser la Communication Numérique | Slackiquette';
+        document.querySelector('meta[name="description"]').content = 'Guide professionnel pour l\'étiquette Slack et la communication numérique. Apprenez les meilleures pratiques, évitez les écueils courants et améliorez la collaboration d\'équipe.';
+      } else {
+        document.title = 'Slack Etiquette Guide: Master Digital Workplace Communication | Slackiquette';
+        document.querySelector('meta[name="description"]').content = 'Professional guide to Slack etiquette and digital workplace communication. Learn best practices, avoid common pitfalls, and improve team collaboration. Free resource for remote teams.';
+      }
+    }
+    
     document.addEventListener('DOMContentLoaded', function() {
+      // Initialize language
+      const savedLang = localStorage.getItem('preferred-language');
+      
+      let initialLang = 'en'; // default
+      if (savedLang) {
+        initialLang = savedLang;
+      } else {
+        // Detect language based on browser language
+        initialLang = detectUserLanguage();
+      }
+      
+      switchLanguage(initialLang);
+      
+      // Language button event listeners
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          switchLanguage(btn.dataset.lang);
+        });
+      });
+      
       // Enhanced GitHub button tracking
       const githubButton = document.querySelector('.github-button');
       if (githubButton && typeof gtag !== 'undefined') {
@@ -291,73 +339,73 @@
           modalContent.innerHTML = `
             <button class="close-modal" aria-label="Close modal">&times;</button>
             <div class="modal-header">
-              <h3>Your 6-Week Slack Challenge 🚀</h3>
-              <p>Transform your team's communication with this progressive plan:</p>
+              <h3 data-en="Your 6-Week Slack Challenge 🚀" data-fr="Votre Défi Slack de 6 Semaines 🚀">${currentLang === 'fr' ? 'Votre Défi Slack de 6 Semaines 🚀' : 'Your 6-Week Slack Challenge 🚀'}</h3>
+              <p data-en="Transform your team's communication with this progressive plan:" data-fr="Transformez la communication de votre équipe avec ce plan progressif :">${currentLang === 'fr' ? 'Transformez la communication de votre équipe avec ce plan progressif :' : 'Transform your team\'s communication with this progressive plan:'}</p>
             </div>
             
             <div class="challenge-weeks">
               <div class="challenge-week" data-week="1">
-                <div class="week-number">Week 1</div>
+                <div class="week-number">${currentLang === 'fr' ? 'Semaine 1' : 'Week 1'}</div>
                 <div class="week-content">
-                  <h4>Notification Discipline</h4>
-                  <p>Establish when to use @channel vs. @here and set up quiet hours for focused work.</p>
+                  <h4>${currentLang === 'fr' ? 'Discipline des Notifications' : 'Notification Discipline'}</h4>
+                  <p>${currentLang === 'fr' ? 'Établissez quand utiliser @channel vs. @here et configurez des heures de calme pour le travail concentré.' : 'Establish when to use @channel vs. @here and set up quiet hours for focused work.'}</p>
                   <div class="week-actions">
-                    <button class="week-complete-btn" data-week="1">Mark Complete</button>
+                    <button class="week-complete-btn" data-week="1">${currentLang === 'fr' ? 'Marquer Terminé' : 'Mark Complete'}</button>
                   </div>
                 </div>
               </div>
               
               <div class="challenge-week" data-week="2">
-                <div class="week-number">Week 2</div>
+                <div class="week-number">${currentLang === 'fr' ? 'Semaine 2' : 'Week 2'}</div>
                 <div class="week-content">
-                  <h4>Communication Clarity</h4>
-                  <p>Practice sending complete thoughts with context in a single, well-structured message.</p>
+                  <h4>${currentLang === 'fr' ? 'Clarté de Communication' : 'Communication Clarity'}</h4>
+                  <p>${currentLang === 'fr' ? 'Pratiquez l\'envoi de pensées complètes avec contexte dans un seul message bien structuré.' : 'Practice sending complete thoughts with context in a single, well-structured message.'}</p>
                   <div class="week-actions">
-                    <button class="week-complete-btn" data-week="2">Mark Complete</button>
+                    <button class="week-complete-btn" data-week="2">${currentLang === 'fr' ? 'Marquer Terminé' : 'Mark Complete'}</button>
                   </div>
                 </div>
               </div>
               
               <div class="challenge-week" data-week="3">
-                <div class="week-number">Week 3</div>
+                <div class="week-number">${currentLang === 'fr' ? 'Semaine 3' : 'Week 3'}</div>
                 <div class="week-content">
-                  <h4>Channel Organization</h4>
-                  <p>Audit and reorganize channels, archive unused ones, and establish clear naming conventions.</p>
+                  <h4>${currentLang === 'fr' ? 'Organisation des Canaux' : 'Channel Organization'}</h4>
+                  <p>${currentLang === 'fr' ? 'Auditez et réorganisez les canaux, archivez ceux inutilisés, et établissez des conventions de nommage claires.' : 'Audit and reorganize channels, archive unused ones, and establish clear naming conventions.'}</p>
                   <div class="week-actions">
-                    <button class="week-complete-btn" data-week="3">Mark Complete</button>
+                    <button class="week-complete-btn" data-week="3">${currentLang === 'fr' ? 'Marquer Terminé' : 'Mark Complete'}</button>
                   </div>
                 </div>
               </div>
               
               <div class="challenge-week" data-week="4">
-                <div class="week-number">Week 4</div>
+                <div class="week-number">${currentLang === 'fr' ? 'Semaine 4' : 'Week 4'}</div>
                 <div class="week-content">
-                  <h4>Focus Protection</h4>
-                  <p>Implement "focus time" blocks where team members can work without interruptions.</p>
+                  <h4>${currentLang === 'fr' ? 'Protection de la Concentration' : 'Focus Protection'}</h4>
+                  <p>${currentLang === 'fr' ? 'Implémentez des blocs de "temps de concentration" où les membres d\'équipe peuvent travailler sans interruptions.' : 'Implement "focus time" blocks where team members can work without interruptions.'}</p>
                   <div class="week-actions">
-                    <button class="week-complete-btn" data-week="4">Mark Complete</button>
+                    <button class="week-complete-btn" data-week="4">${currentLang === 'fr' ? 'Marquer Terminé' : 'Mark Complete'}</button>
                   </div>
                 </div>
               </div>
               
               <div class="challenge-week" data-week="5">
-                <div class="week-number">Week 5</div>
+                <div class="week-number">${currentLang === 'fr' ? 'Semaine 5' : 'Week 5'}</div>
                 <div class="week-content">
-                  <h4>Team Dynamics</h4>
-                  <p>Move sensitive feedback to private channels and establish positive communication patterns.</p>
+                  <h4>${currentLang === 'fr' ? 'Dynamiques d\'Équipe' : 'Team Dynamics'}</h4>
+                  <p>${currentLang === 'fr' ? 'Déplacez les commentaires sensibles vers des canaux privés et établissez des modèles de communication positifs.' : 'Move sensitive feedback to private channels and establish positive communication patterns.'}</p>
                   <div class="week-actions">
-                    <button class="week-complete-btn" data-week="5">Mark Complete</button>
+                    <button class="week-complete-btn" data-week="5">${currentLang === 'fr' ? 'Marquer Terminé' : 'Mark Complete'}</button>
                   </div>
                 </div>
               </div>
               
               <div class="challenge-week" data-week="6">
-                <div class="week-number">Week 6</div>
+                <div class="week-number">${currentLang === 'fr' ? 'Semaine 6' : 'Week 6'}</div>
                 <div class="week-content">
-                  <h4>Bot Management</h4>
-                  <p>Review and optimize all automations and integrations for maximum value.</p>
+                  <h4>${currentLang === 'fr' ? 'Gestion des Bots' : 'Bot Management'}</h4>
+                  <p>${currentLang === 'fr' ? 'Révisez et optimisez toutes les automatisations et intégrations pour une valeur maximale.' : 'Review and optimize all automations and integrations for maximum value.'}</p>
                   <div class="week-actions">
-                    <button class="week-complete-btn" data-week="6">Mark Complete</button>
+                    <button class="week-complete-btn" data-week="6">${currentLang === 'fr' ? 'Marquer Terminé' : 'Mark Complete'}</button>
                   </div>
                 </div>
               </div>
@@ -368,9 +416,9 @@
                 <div class="progress-bar">
                   <div class="progress-fill" style="width: 0%"></div>
                 </div>
-                <span class="progress-text">0/6 weeks completed</span>
+                <span class="progress-text">${currentLang === 'fr' ? '0/6 semaines terminées' : '0/6 weeks completed'}</span>
               </div>
-              <button class="download-guide-btn">Download PDF Guide</button>
+              <button class="download-guide-btn">${currentLang === 'fr' ? 'Télécharger le Guide PDF' : 'Download PDF Guide'}</button>
             </div>
           `;
           
@@ -387,7 +435,9 @@
             const percentage = (completedWeeks.length / 6) * 100;
             
             progressFill.style.width = `${percentage}%`;
-            progressText.textContent = `${completedWeeks.length}/6 weeks completed`;
+            progressText.textContent = currentLang === 'fr' ? 
+              `${completedWeeks.length}/6 semaines terminées` : 
+              `${completedWeeks.length}/6 weeks completed`;
             
             // Update week states
             completedWeeks.forEach(weekNum => {
@@ -395,7 +445,7 @@
               if (weekElement) {
                 weekElement.classList.add('completed');
                 const btn = weekElement.querySelector('.week-complete-btn');
-                btn.textContent = 'Completed ✓';
+                btn.textContent = currentLang === 'fr' ? 'Terminé ✓' : 'Completed ✓';
                 btn.disabled = true;
               }
             });
@@ -559,6 +609,64 @@ For more resources, visit: https://slackiquette.com
   </script>
   
   <style>
+    /* Language Switcher Styles */
+    .language-switcher {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      display: flex;
+      gap: 8px;
+      z-index: 100;
+    }
+    
+    .lang-btn {
+      background: rgba(30, 41, 59, 0.8);
+      border: 2px solid rgba(59, 130, 246, 0.2);
+      color: #cbd5e1;
+      padding: 8px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.85em;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    
+    .lang-btn:hover {
+      background: rgba(59, 130, 246, 0.15);
+      border-color: rgba(59, 130, 246, 0.4);
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+    }
+    
+    .lang-btn.active {
+      background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      border-color: transparent;
+      color: #fff;
+      box-shadow: 0 4px 16px rgba(59, 130, 246, 0.3);
+    }
+    
+    .lang-btn.active:hover {
+      transform: translateY(-2px) scale(1.05);
+      box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+    }
+    
+    @media (max-width: 768px) {
+      .language-switcher {
+        top: 15px;
+        left: 15px;
+      }
+      
+      .lang-btn {
+        padding: 6px 10px;
+        font-size: 0.8em;
+      }
+    }
+
     /* Dark Glassmorphism Modal Styles */
     .challenge-modal-overlay {
       position: fixed;
